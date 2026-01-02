@@ -1,4 +1,3 @@
-```markdown
 # 🌲 UCI Forest CoverType: Deep Learning vs. Ensemble Methods
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
@@ -108,4 +107,3 @@ Based on the error analysis, future iterations could include:
 1.  **Feature Engineering:** Explicitly creating interaction terms (e.g., `Elevation * Hillshade`) to help the MLP separate Class 1 and 2.
 2.  **TabNet Implementation:** Utilizing attention-based architectures designed specifically for tabular data.
 3.  **Global Seeding:** Implementing `os.environ['PYTHONHASHSEED']` and `tf.random.set_seed` for bit-exact reproducibility.
-```
